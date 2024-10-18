@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalFiat - Next Generation of Cryptocurrency</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- AOS Library for Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <h1>GlobalFiat</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="investors.html">Investors</a></li>
+        <li><a href="beta.html">Beta Testing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="theme-toggle">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle-checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span id="theme-label">Dark Mode</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Главный баннер -->
+  <section class="hero" data-aos="fade-in">
+    <div class="container">
+      <h1 class="console-text">Welcome to GlobalFiat</h1>
+      <p>Your gateway to the future of decentralized finance. Secure, scalable, and compliant for real-world usage.</p>
+      <div class="hero-buttons">
+        <a href="investors.html" class="btn primary">Invest Now</a>
+        <a href="beta.html" class="btn secondary">Join Beta Testing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- О нас -->
+  <section class="about" data-aos="fade-up">
+    <div class="container">
+      <h2>About GlobalFiat</h2>
+      <p>GlobalFiat is at the forefront of decentralized finance (DeFi), delivering user-friendly and secure financial solutions. Our platform offers scalability and regulatory compliance, ensuring long-term sustainability and growth opportunities for investors.</p>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+  <section class="features" data-aos="fade-up">
+    <div class="container">
+      <div class="feature">
+        <h3>Top-Tier Security</h3>
+        <p>Our multi-layered security systems ensure the safety of your assets, protecting them from threats.</p>
+      </div>
+      <div class="feature">
+        <h3>Global Scalability</h3>
+        <p>Our platform supports millions of transactions per second, ensuring uninterrupted service worldwide.</p>
+      </div>
+      <div class="feature">
+        <h3>Regulatory Compliance</h3>
+        <p>GlobalFiat complies with international laws to provide a legal, safe, and long-term crypto investment option.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Диаграммы -->
+  <section class="charts" data-aos="fade-up">
+    <div class="container">
+      <div class="chart-container">
+        <h2>Fund Allocation</h2>
+        <canvas id="fundChart"></canvas>
+      </div>
+      <div class="chart-container">
+        <h2>Return on Investment</h2>
+        <canvas id="roiChart"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>GlobalFiat &copy; 2024 | <a href="privacy.html">Privacy Policy</a></p>
+      <p>Contact us: <a href="mailto:contact@GlobalFiat.org" class="email-link">contact@GlobalFiat.org</a> | <a href="https://t.me/GlobalFiat" class="telegram-link">Telegram</a></p>
+    </div>
+  </footer>
+
+  <!-- AOS Library JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <!-- Chart.js Library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalFiat - Beta Testing</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- AOS Library for Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <h1>GlobalFiat</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="investors.html">Investors</a></li>
+        <li><a href="beta.html">Beta Testing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="theme-toggle">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle-checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span id="theme-label">Dark Mode</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Бета-тестирование -->
+  <section class="beta-hero" data-aos="fade-in">
+    <div class="container">
+      <h1 class="console-text">Join Our Beta Testing Program</h1>
+      <p>Help us perfect the GlobalFiat platform by participating in our beta testing phase. Your feedback will be invaluable as we improve and grow.</p>
+      <a href="contact.html" class="btn primary">Apply Now</a>
+    </div>
+  </section>
+
+  <!-- Юридическая информация -->
+  <section class="legal" data-aos="fade-up">
+    <div class="container">
+      <h2>Legal and Compliance Information</h2>
+      <p>GlobalFiat operates in compliance with international cryptocurrency regulations. Our legal team ensures that all aspects of our platform meet regulatory standards in all applicable jurisdictions. We are committed to maintaining the highest levels of transparency and legal compliance to protect our users and investors.</p>
+      <h3>Disclaimer</h3>
+      <p>Please note that cryptocurrency investments carry a high level of risk, and you should consult with a professional financial advisor before making any investment decisions.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>GlobalFiat &copy; 2024 | <a href="privacy.html">Privacy Policy</a></p>
+      <p>Contact us: <a href="mailto:contact@GlobalFiat.org" class="email-link">contact@GlobalFiat.org</a> | <a href="https://t.me/GlobalFiat" class="telegram-link">Telegram</a></p>
+    </div>
+  </footer>
+
+  <!-- AOS Library JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>

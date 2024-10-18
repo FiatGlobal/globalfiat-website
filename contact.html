@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GlobalFiat - Contact Us</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <!-- AOS Library for Animations -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Навигация -->
+  <nav class="navbar">
+    <div class="container">
+      <h1>GlobalFiat</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="investors.html">Investors</a></li>
+        <li><a href="beta.html">Beta Testing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="theme-toggle">
+          <label class="switch">
+            <input type="checkbox" id="theme-toggle-checkbox">
+            <span class="slider round"></span>
+          </label>
+          <span id="theme-label">Dark Mode</span>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Контакты -->
+  <section class="contact" data-aos="fade-in" style="padding-top: 100px;"> <!-- Увеличен отступ, чтобы текст не заезжал на шапку -->
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>If you have any questions, feel free to contact us via email or Telegram:</p>
+      <div class="contact-info">
+        <p><strong>Email:</strong> <a href="mailto:contact@GlobalFiat.org" class="email-link">contact@GlobalFiat.org</a></p>
+        <p><strong>Telegram:</strong> <a href="https://t.me/GlobalFiat" class="telegram-link">https://t.me/GlobalFiat</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>GlobalFiat &copy; 2024 | <a href="privacy.html">Privacy Policy</a></p>
+      <p>Contact us: <a href="mailto:contact@GlobalFiat.org" class="email-link">contact@GlobalFiat.org</a> | <a href="https://t.me/GlobalFiat" class="telegram-link">Telegram</a></p>
+    </div>
+  </footer>
+
+  <!-- AOS Library JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
